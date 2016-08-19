@@ -4,7 +4,9 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::UnusedVars;
 # ABSTRACT: Release tests for unused variables
-# VERSION
+
+our $VERSION = '2.001000';
+
 use Path::Tiny;
 use Moose;
 use Data::Section -setup;

@@ -1,3 +1,8 @@
-Dist-Zilla-Plugin-UnusedVarsTests-*
-.build
-Dist-Zilla-Plugin-Test-UnusedVars-*
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+Dist-Zilla-Plugin-Test-UnusedVars-*/
+Dist-Zilla-Plugin-UnusedVarsTests-*.tar.gz
+Dist-Zilla-Plugin-UnusedVarsTests-*/
+Dist-Zilla-Plugin-Test-UnusedVars-*.tar.gz
