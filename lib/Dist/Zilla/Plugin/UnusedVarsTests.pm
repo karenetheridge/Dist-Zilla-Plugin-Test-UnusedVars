@@ -32,4 +32,10 @@ In C<dist.ini>:
 1;
 __END__
 
+=head1 DESCRIPTION
+
+THIS MODULE IS DEPRECATED. Please use
+L<Dist::Zilla::Plugin::Test::UnusedVars> instead. It may be removed at a
+later time (but not before February 2017).
+
 =cut
