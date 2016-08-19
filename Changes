@@ -1,6 +1,8 @@
 Revision history for Dist-Zilla-Plugin-Test-UnusedVars
 
 {{$NEXT}}
+  - use the 'deprecated' warning category to issue the warning in
+    [UnusedVarsTests]
 
 2.000007  2015-01-22
   - Remove requirement for Moose::Autobox in tests [kentnl, GH #6]

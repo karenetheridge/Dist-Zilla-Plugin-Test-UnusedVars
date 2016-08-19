@@ -11,7 +11,9 @@ use namespace::autoclean;
 extends 'Dist::Zilla::Plugin::Test::UnusedVars';
 
 before register_component => sub {
-    warn '!!! [UnusedVarsTests] is deprecated and will be removed in a future release; replace it with [Test::UnusedVars]';
+    warnings::warnif('deprecated',
+        "!!! [UnusedVarsTests] is deprecated and will be removed in a future release; please use [Test::UnusedVars].\n",
+    );
 };
 
 __PACKAGE__->meta->make_immutable;
