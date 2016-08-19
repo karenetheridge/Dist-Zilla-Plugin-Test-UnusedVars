@@ -17,7 +17,6 @@ before register_component => sub {
 };
 
 __PACKAGE__->meta->make_immutable;
-no Moose;
 1;
 
 =pod

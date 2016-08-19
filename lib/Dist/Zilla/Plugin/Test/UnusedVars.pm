@@ -8,7 +8,10 @@ our $VERSION = '2.001000';
 
 use Path::Tiny;
 use Moose;
-use Data::Section -setup;
+use Sub::Exporter::ForMethods 'method_installer';
+use Data::Section 0.004 { installer => method_installer }, '-setup';
+use namespace::autoclean;
+
 with qw(
     Dist::Zilla::Role::FileGatherer
     Dist::Zilla::Role::TextTemplate
@@ -50,7 +53,6 @@ sub gather_files {
 };
 
 __PACKAGE__->meta->make_immutable;
-no Moose;
 1;
 
 =pod
