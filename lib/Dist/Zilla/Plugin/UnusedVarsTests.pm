@@ -20,17 +20,15 @@ __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
 
+=pod
+
 =head1 SYNOPSIS
 
 Please use L<Dist::Zilla::Plugin::Test::UnusedVars> instead.
 
-In C<dist.ini>:
+In your F<dist.ini>:
 
     [Test::UnusedVars]
-
-=for test_synopsis
-1;
-__END__
 
 =head1 DESCRIPTION
 

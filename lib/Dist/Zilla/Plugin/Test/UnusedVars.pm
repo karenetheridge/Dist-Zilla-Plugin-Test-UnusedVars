@@ -53,9 +53,11 @@ __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
 
+=pod
+
 =head1 SYNOPSIS
 
-In C<dist.ini>:
+In your F<dist.ini>:
 
     [Test::UnusedVars]
 
@@ -64,10 +66,6 @@ Or, give a list of files to test:
     [Test::UnusedVars]
     file = lib/My/Module.pm
     file = bin/verify-this
-
-=for test_synopsis
-1;
-__END__
 
 =head1 DESCRIPTION
 
