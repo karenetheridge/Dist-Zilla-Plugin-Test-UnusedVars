@@ -80,8 +80,6 @@ following file:
 
 __DATA__
 ___[ xt/release/unused-vars.t ]___
-#!perl
-
 use Test::More 0.96 tests => 1;
 eval { require Test::Vars };
 
