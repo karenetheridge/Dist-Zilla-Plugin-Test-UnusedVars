@@ -23,10 +23,6 @@ has files => (
     predicate => 'has_files',
 );
 
-=for Pod::Coverage *EVERYTHING*
-
-=cut
-
 sub mvp_multivalue_args { return qw/ files / }
 sub mvp_aliases { return { file => 'files' } }
 
@@ -56,6 +52,8 @@ __PACKAGE__->meta->make_immutable;
 1;
 
 =pod
+
+=for Pod::Coverage mvp_multivalue_args mvp_aliases gather_files
 
 =head1 SYNOPSIS
 
